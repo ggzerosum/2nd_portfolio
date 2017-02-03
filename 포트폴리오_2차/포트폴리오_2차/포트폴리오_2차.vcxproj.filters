@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\00. Include">
+      <UniqueIdentifier>{60e435c9-7582-4fec-bf33-ae1651a818e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{f2ff45c3-cdef-4321-b1fa-b434cdd2d7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00. MainGame">
+      <UniqueIdentifier>{ff001f17-2aa0-4939-bee1-1d4730f70707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object">
+      <UniqueIdentifier>{a7afeeb6-23fd-48f2-a1cd-00bc2ea49843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Manager">
+      <UniqueIdentifier>{239dc6e8-a628-4f6c-a26c-c2f502458a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. SceneObj">
+      <UniqueIdentifier>{a3fcba16-ac6b-4af2-be28-a5edcf650f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature">
+      <UniqueIdentifier>{b2ba5287-1485-4e27-a809-cc103ff9b7e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Things">
+      <UniqueIdentifier>{7c9c691d-2297-4fc9-b27e-d20d7a66872b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Human">
+      <UniqueIdentifier>{e7459f53-9719-4217-af4a-1d92dfe5b3c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Human\01. NPC">
+      <UniqueIdentifier>{753b2b95-b25f-473b-94f1-add4d0c99623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Human\01. NPC\NPC01">
+      <UniqueIdentifier>{58d8ad4b-fa46-46ff-abd5-57a586f3fba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\Dialog">
+      <UniqueIdentifier>{db6b470b-bfe9-4af3-9e5a-449baef2bb6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\NPC_Name">
+      <UniqueIdentifier>{e61a25de-d8c4-4587-9dc1-f786e72d3ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Manager\CreateNPCMgr">
+      <UniqueIdentifier>{bc156649-ffe7-4cb9-beee-b301fb253ad9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>소스 파일\01. Object\01. Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="Things.cpp">
+      <Filter>소스 파일\01. Object\02. Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc01.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Human\01. NPC\NPC01</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateNPCMgr.cpp">
+      <Filter>소스 파일\99. Manager\CreateNPCMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>헤더 파일\00. Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일\00. Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>헤더 파일\00. Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>소스 파일\01. Object\01. Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="Things.h">
+      <Filter>소스 파일\01. Object\02. Things</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc01.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Human\01. NPC\NPC01</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateNPCMgr.h">
+      <Filter>소스 파일\99. Manager\CreateNPCMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt">
+      <Filter>Text\Dialog</Filter>
+    </Text>
+    <Text Include="NPC_Name.txt">
+      <Filter>Text\NPC_Name</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
