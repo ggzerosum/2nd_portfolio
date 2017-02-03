@@ -1,3 +1,4 @@
-﻿  Npc01.cpp
-  포트폴리오_2차.vcxproj -> E:\GitHub\CPP_Practice\포트폴리오_2차\Debug\포트폴리오_2차.exe
-  포트폴리오_2차.vcxproj -> E:\GitHub\CPP_Practice\포트폴리오_2차\Debug\포트폴리오_2차.pdb (Partial PDB)
+﻿  MyLogo.cpp
+c:\users\ggzerosum\desktop\포트폴리오_2차\포트폴리오_2차\mylogo.cpp(38): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  포트폴리오_2차.vcxproj -> C:\Users\ggzerosum\Desktop\포트폴리오_2차\Debug\포트폴리오_2차.exe
+  포트폴리오_2차.vcxproj -> C:\Users\ggzerosum\Desktop\포트폴리오_2차\Debug\포트폴리오_2차.pdb (Partial PDB)

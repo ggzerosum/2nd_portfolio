@@ -117,7 +117,10 @@
     <ClCompile Include="Creature.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="MyLogo.cpp" />
+    <ClCompile Include="MyMenu.cpp" />
     <ClCompile Include="Npc01.cpp" />
+    <ClCompile Include="SceneObj.cpp" />
     <ClCompile Include="Things.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -127,7 +130,10 @@
     <ClInclude Include="Enum.h" />
     <ClInclude Include="Include.h" />
     <ClInclude Include="MainGame.h" />
+    <ClInclude Include="MyLogo.h" />
+    <ClInclude Include="MyMenu.h" />
     <ClInclude Include="Npc01.h" />
+    <ClInclude Include="SceneObj.h" />
     <ClInclude Include="Struct.h" />
     <ClInclude Include="Things.h" />
   </ItemGroup>

@@ -24,11 +24,14 @@ public :
 	CCreature* MakeNPC01()
 	{
 		CCreature* pNPC01 = new CNpc01;
+		pNPC01->Initialize();
+
 		return pNPC01;
 	}
 
-public:
+private :
 	CCreateNPCMgr();
+public:
 	~CCreateNPCMgr();
 };
 

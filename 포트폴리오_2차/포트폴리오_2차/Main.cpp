@@ -2,12 +2,17 @@
 
 #include "MainGame.h"
 
+////Start_Test
+#include "MyLogo.h"
+///End_Test
+
 int main()
 {
 	srand(time(NULL));
-	
-	CMainGame obj;
-	obj.Render();
+
+	CMyLogo obj02;
+	obj02.Initialize();
+	obj02.Render();
 
 	/*FILE* TEST;
 	fopen_s(&TEST, "Text.txt", "r");

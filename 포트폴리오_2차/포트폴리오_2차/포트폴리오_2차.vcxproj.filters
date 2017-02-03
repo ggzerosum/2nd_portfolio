@@ -55,6 +55,12 @@
     <Filter Include="소스 파일\99. Manager\CreateNPCMgr">
       <UniqueIdentifier>{bc156649-ffe7-4cb9-beee-b301fb253ad9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\02. SceneObj\Logo">
+      <UniqueIdentifier>{bd07a82d-c32e-446a-8cff-89e2adc8dfa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. SceneObj\Menu">
+      <UniqueIdentifier>{908fa866-82bf-4fd0-bd9f-032fbf9f05af}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -74,6 +80,15 @@
     </ClCompile>
     <ClCompile Include="CreateNPCMgr.cpp">
       <Filter>소스 파일\99. Manager\CreateNPCMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObj.cpp">
+      <Filter>소스 파일\02. SceneObj</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLogo.cpp">
+      <Filter>소스 파일\02. SceneObj\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>소스 파일\02. SceneObj\Menu</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +118,15 @@
     </ClInclude>
     <ClInclude Include="CreateNPCMgr.h">
       <Filter>소스 파일\99. Manager\CreateNPCMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObj.h">
+      <Filter>소스 파일\02. SceneObj</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLogo.h">
+      <Filter>소스 파일\02. SceneObj\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>소스 파일\02. SceneObj\Menu</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -4,7 +4,7 @@
 
 CNpc01::CNpc01()
 {
-	this->Initialize();
+	
 }
 
 
@@ -29,9 +29,10 @@ void CNpc01::Progress()
 
 void CNpc01::Render()
 {
-	cout << "안녕하세요" << endl;
+	/*cout << "안녕하세요" << endl;
 	cout << "저는" << tag_info.cName << "입니다" << endl;
-	cout << "저의 나이는 " << tag_info.iAge << "입니다" << endl;
+	cout << "저의 나이는 " << tag_info.iAge << "입니다" << endl;*/
+
 }
 
 void CNpc01::Release()
