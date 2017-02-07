@@ -4,15 +4,40 @@
 
 ////Start_Test
 #include "MyLogo.h"
+#include "DoubleBufferMgr.h"
 ///End_Test
 
 int main()
 {
 	srand(time(NULL));
 
+
+	CDoubleBufferMgr::GetInst()->CreateBuffer(WINC_X, WINC_Y);
+	
+	int i = 0;
+
+	while (true)
+	{
+		CDoubleBufferMgr::GetInst()->FlippingBuffer();
+		CDoubleBufferMgr::GetInst()->ClearingBuffer();
+
+		if (i % 2 == 0)
+		{
+			CDoubleBufferMgr::GetInst()->WriteBuffer(1, 1, "æ»≥Á«œººø‰");
+		}
+		else
+		{
+			CDoubleBufferMgr::GetInst()->WriteBuffer(1, 1, "æ»≥Á«œººø‰");
+		}
+
+		i++;
+		//Sleep(1000);
+	}
+	/*
 	CMyLogo obj02;
 	obj02.Initialize();
 	obj02.Render();
+	*/
 
 	/*FILE* TEST;
 	fopen_s(&TEST, "Text.txt", "r");

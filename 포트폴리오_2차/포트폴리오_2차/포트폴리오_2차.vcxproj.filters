@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\02. SceneObj\Menu">
       <UniqueIdentifier>{908fa866-82bf-4fd0-bd9f-032fbf9f05af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\99. Manager\DoubleBuffer">
+      <UniqueIdentifier>{0487ec68-8b0d-4071-821e-d9c04b32db7f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -89,6 +92,9 @@
     </ClCompile>
     <ClCompile Include="MyMenu.cpp">
       <Filter>소스 파일\02. SceneObj\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBufferMgr.cpp">
+      <Filter>소스 파일\99. Manager\DoubleBuffer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -127,6 +133,9 @@
     </ClInclude>
     <ClInclude Include="MyMenu.h">
       <Filter>소스 파일\02. SceneObj\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleBufferMgr.h">
+      <Filter>소스 파일\99. Manager\DoubleBuffer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

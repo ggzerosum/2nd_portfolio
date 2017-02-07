@@ -1,6 +1,6 @@
 #include "MyLogo.h"
 
-
+#include "DoubleBufferMgr.h"
 
 CMyLogo::CMyLogo()
 {
@@ -24,7 +24,7 @@ void CMyLogo::Initialize()
 	m_Logo[3] = "¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á";
 	m_Logo[4] = "                                   Press Enter to Skip       ";
 
-	SetConsoleWindowInfo();
+	//SetConsoleWindowInfo();
 }
 
 void CMyLogo::Progress()
@@ -44,8 +44,8 @@ void CMyLogo::Render()
 			coor.X = m_ix;
 			coor.Y = m_iy + i;
 
-			SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coor);
-			cout << m_Logo[i];
+			//SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coor);
+			CDoubleBufferMgr::GetInst()->WriteBuffer(coor.X, coor.Y, m_Logo[i]);
 		}
 
 		m_check = 1;

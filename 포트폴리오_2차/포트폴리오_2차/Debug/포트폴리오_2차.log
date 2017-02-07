@@ -1,4 +1,4 @@
-﻿  MyLogo.cpp
-c:\users\ggzerosum\desktop\포트폴리오_2차\포트폴리오_2차\mylogo.cpp(38): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-  포트폴리오_2차.vcxproj -> C:\Users\ggzerosum\Desktop\포트폴리오_2차\Debug\포트폴리오_2차.exe
-  포트폴리오_2차.vcxproj -> C:\Users\ggzerosum\Desktop\포트폴리오_2차\Debug\포트폴리오_2차.pdb (Partial PDB)
+﻿  Main.cpp
+e:\github\2nd_portfolio\포트폴리오_2차\포트폴리오_2차\main.cpp(12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  포트폴리오_2차.vcxproj -> E:\GitHub\2nd_portfolio\포트폴리오_2차\Debug\포트폴리오_2차.exe
+  포트폴리오_2차.vcxproj -> E:\GitHub\2nd_portfolio\포트폴리오_2차\Debug\포트폴리오_2차.pdb (Partial PDB)

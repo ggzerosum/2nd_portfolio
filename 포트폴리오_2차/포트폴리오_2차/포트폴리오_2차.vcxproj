@@ -115,6 +115,7 @@
   <ItemGroup>
     <ClCompile Include="CreateNPCMgr.cpp" />
     <ClCompile Include="Creature.cpp" />
+    <ClCompile Include="DoubleBufferMgr.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="MyLogo.cpp" />
@@ -127,6 +128,7 @@
     <ClInclude Include="CreateNPCMgr.h" />
     <ClInclude Include="Creature.h" />
     <ClInclude Include="Define.h" />
+    <ClInclude Include="DoubleBufferMgr.h" />
     <ClInclude Include="Enum.h" />
     <ClInclude Include="Include.h" />
     <ClInclude Include="MainGame.h" />
