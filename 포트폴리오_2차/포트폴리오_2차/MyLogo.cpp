@@ -1,6 +1,7 @@
 #include "MyLogo.h"
 
 #include "DoubleBufferMgr.h"
+#include "SceneMgr.h"
 
 CMyLogo::CMyLogo()
 {
@@ -24,36 +25,31 @@ void CMyLogo::Initialize()
 	m_Logo[3] = "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■";
 	m_Logo[4] = "                                   Press Enter to Skip       ";
 
-	//SetConsoleWindowInfo();
+	//cout << "로고 이니셜라이즈" << endl;
 }
 
 void CMyLogo::Progress()
 {
-
+	//cout << "로고 프로그레스" << endl;
 }
 
 void CMyLogo::Render()
 {
 
-	if (m_check == 0)
+	COORD coor = { m_ix, m_iy };
+
+	for (int i = 0; i <= 4; i++)
 	{
-		COORD coor = { m_ix, m_iy };
+		coor.X = m_ix;
+		coor.Y = m_iy + i;
 
-		for (int i = 0; i <= 4; i++)
-		{
-			coor.X = m_ix;
-			coor.Y = m_iy + i;
-
-			//SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coor);
-			CDoubleBufferMgr::GetInst()->WriteBuffer(coor.X, coor.Y, m_Logo[i]);
-		}
-
-		m_check = 1;
+		//SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coor);
+		CDoubleBufferMgr::GetInst()->WriteBuffer(coor.X, coor.Y, m_Logo[i]);
 	}
 
 	if (GetAsyncKeyState(VK_RETURN))
 	{
-		system("cls");
+		CSceneMgr::GetInst()->SetScene(IDS_MENU);
 	}
 }
 

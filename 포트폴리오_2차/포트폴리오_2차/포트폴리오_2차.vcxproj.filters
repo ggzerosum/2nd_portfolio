@@ -64,6 +64,24 @@
     <Filter Include="소스 파일\99. Manager\DoubleBuffer">
       <UniqueIdentifier>{0487ec68-8b0d-4071-821e-d9c04b32db7f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\99. Manager\SceneMgr">
+      <UniqueIdentifier>{ff528621-981c-41e0-8a74-1ef45f601668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. SceneObj\Stage">
+      <UniqueIdentifier>{425c9f1c-7383-4e6b-9e02-9f9b7571d0c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. SceneObj\Stage\Stage_01">
+      <UniqueIdentifier>{e8e59869-8e9d-4c5b-8c41-d12c9c738d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. SceneObj\Score">
+      <UniqueIdentifier>{7e91195b-59ab-45c8-aa6d-9e9805d731e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. SceneObj\Ranking">
+      <UniqueIdentifier>{568f2794-6a7a-4553-b927-bea4b9e53a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Manager\ExitMgr">
+      <UniqueIdentifier>{09a3222f-01e7-471a-8a6d-8b29ea4f129f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -95,6 +113,21 @@
     </ClCompile>
     <ClCompile Include="DoubleBufferMgr.cpp">
       <Filter>소스 파일\99. Manager\DoubleBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>소스 파일\99. Manager\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStage_01.cpp">
+      <Filter>소스 파일\02. SceneObj\Stage\Stage_01</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>소스 파일\02. SceneObj\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranking.cpp">
+      <Filter>소스 파일\02. SceneObj\Ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitMgr.cpp">
+      <Filter>소스 파일\99. Manager\ExitMgr</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +169,21 @@
     </ClInclude>
     <ClInclude Include="DoubleBufferMgr.h">
       <Filter>소스 파일\99. Manager\DoubleBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>소스 파일\99. Manager\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStage_01.h">
+      <Filter>소스 파일\02. SceneObj\Stage\Stage_01</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>소스 파일\02. SceneObj\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranking.h">
+      <Filter>소스 파일\02. SceneObj\Ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitMgr.h">
+      <Filter>소스 파일\99. Manager\ExitMgr</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

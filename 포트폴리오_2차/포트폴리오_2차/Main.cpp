@@ -1,6 +1,9 @@
 #include "Include.h"
 
+/////
 #include "MainGame.h"
+#include "ExitMgr.h"
+/////
 
 ////Start_Test
 #include "MyLogo.h"
@@ -11,28 +14,44 @@ int main()
 {
 	srand(time(NULL));
 
+	CMainGame MainGame;
+	MainGame.Initialize();
 
-	CDoubleBufferMgr::GetInst()->CreateBuffer(WINC_X, WINC_Y);
-	
-	int i = 0;
+	DWORD dwTime = GetTickCount();
 
-	while (true)
+	while (CExitMgr::GetInst()->Get_ExitMgr())
 	{
-		CDoubleBufferMgr::GetInst()->FlippingBuffer();
-		CDoubleBufferMgr::GetInst()->ClearingBuffer();
+		if (dwTime + 100 < GetTickCount())
+		{
+			dwTime = GetTickCount();
 
-		if (i % 2 == 0)
-		{
-			CDoubleBufferMgr::GetInst()->WriteBuffer(1, 1, "¾È³çÇÏ¼¼¿ä");
-		}
-		else
-		{
-			CDoubleBufferMgr::GetInst()->WriteBuffer(1, 1, "¾È³çÇÏ¼¼¿ä");
+			MainGame.Progress();
+			MainGame.Render();
 		}
 
-		i++;
-		//Sleep(1000);
+		//Sleep(100);
 	}
+	//CDoubleBufferMgr::GetInst()->CreateBuffer(WINC_X, WINC_Y);
+	//
+	//int i = 0;
+
+	//while (true)
+	//{
+	//	CDoubleBufferMgr::GetInst()->FlippingBuffer();
+	//	CDoubleBufferMgr::GetInst()->ClearingBuffer();
+
+	//	if (i % 2 == 0)
+	//	{
+	//		CDoubleBufferMgr::GetInst()->WriteBuffer(1, 1, "¾È³çÇÏ¼¼¿ä");
+	//	}
+	//	else
+	//	{
+	//		CDoubleBufferMgr::GetInst()->WriteBuffer(1, 1, "¾È³ç");
+	//	}
+
+	//	i++;
+	//	//Sleep(1000);
+	//}
 	/*
 	CMyLogo obj02;
 	obj02.Initialize();

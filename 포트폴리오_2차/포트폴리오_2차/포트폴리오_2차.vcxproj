@@ -116,12 +116,17 @@
     <ClCompile Include="CreateNPCMgr.cpp" />
     <ClCompile Include="Creature.cpp" />
     <ClCompile Include="DoubleBufferMgr.cpp" />
+    <ClCompile Include="ExitMgr.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="MyLogo.cpp" />
     <ClCompile Include="MyMenu.cpp" />
+    <ClCompile Include="MyStage_01.cpp" />
     <ClCompile Include="Npc01.cpp" />
+    <ClCompile Include="Ranking.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
     <ClCompile Include="SceneObj.cpp" />
+    <ClCompile Include="Score.cpp" />
     <ClCompile Include="Things.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -130,12 +135,17 @@
     <ClInclude Include="Define.h" />
     <ClInclude Include="DoubleBufferMgr.h" />
     <ClInclude Include="Enum.h" />
+    <ClInclude Include="ExitMgr.h" />
     <ClInclude Include="Include.h" />
     <ClInclude Include="MainGame.h" />
     <ClInclude Include="MyLogo.h" />
     <ClInclude Include="MyMenu.h" />
+    <ClInclude Include="MyStage_01.h" />
     <ClInclude Include="Npc01.h" />
+    <ClInclude Include="Ranking.h" />
+    <ClInclude Include="SceneMgr.h" />
     <ClInclude Include="SceneObj.h" />
+    <ClInclude Include="Score.h" />
     <ClInclude Include="Struct.h" />
     <ClInclude Include="Things.h" />
   </ItemGroup>
