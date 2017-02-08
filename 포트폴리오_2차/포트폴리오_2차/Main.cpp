@@ -10,8 +10,12 @@
 #include "DoubleBufferMgr.h"
 ///End_Test
 
+bool EXIT;
+
 int main()
 {
+	EXIT = true;
+
 	srand(time(NULL));
 
 	CMainGame MainGame;
@@ -19,9 +23,9 @@ int main()
 
 	DWORD dwTime = GetTickCount();
 
-	while (CExitMgr::GetInst()->Get_ExitMgr())
+	while (EXIT)
 	{
-		if (dwTime + 100 < GetTickCount())
+		if (dwTime + 80 < GetTickCount())
 		{
 			dwTime = GetTickCount();
 

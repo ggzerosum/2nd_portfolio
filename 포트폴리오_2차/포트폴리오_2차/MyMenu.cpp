@@ -101,7 +101,8 @@ void CMyMenu::Render()
 			break;
 
 		case IDS_MENU_EXIT :
-			CExitMgr::GetInst()->Set_ExitMgr(false);
+			//CExitMgr::GetInst()->Set_ExitMgr(false);//extern을 쓰는게 더 간단하다.
+			EXIT = false;
 			break;
 		}
 	}

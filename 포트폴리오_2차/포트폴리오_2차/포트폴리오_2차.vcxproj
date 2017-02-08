@@ -113,6 +113,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="CheckKeyMgr.cpp" />
     <ClCompile Include="CreateNPCMgr.cpp" />
     <ClCompile Include="Creature.cpp" />
     <ClCompile Include="DoubleBufferMgr.cpp" />
@@ -123,6 +125,7 @@
     <ClCompile Include="MyMenu.cpp" />
     <ClCompile Include="MyStage_01.cpp" />
     <ClCompile Include="Npc01.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Ranking.cpp" />
     <ClCompile Include="SceneMgr.cpp" />
     <ClCompile Include="SceneObj.cpp" />
@@ -130,6 +133,8 @@
     <ClCompile Include="Things.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="CheckKeyMgr.h" />
     <ClInclude Include="CreateNPCMgr.h" />
     <ClInclude Include="Creature.h" />
     <ClInclude Include="Define.h" />
@@ -142,6 +147,7 @@
     <ClInclude Include="MyMenu.h" />
     <ClInclude Include="MyStage_01.h" />
     <ClInclude Include="Npc01.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Ranking.h" />
     <ClInclude Include="SceneMgr.h" />
     <ClInclude Include="SceneObj.h" />
@@ -150,6 +156,7 @@
     <ClInclude Include="Things.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="BlockList.txt" />
     <Text Include="NPC_Name.txt" />
     <Text Include="Text.txt" />
   </ItemGroup>

@@ -82,6 +82,18 @@
     <Filter Include="소스 파일\99. Manager\ExitMgr">
       <UniqueIdentifier>{09a3222f-01e7-471a-8a6d-8b29ea4f129f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Human\02. Player">
+      <UniqueIdentifier>{5f8d3e15-0d14-45cf-a2ec-c1b597ac88e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Manager\KeyCheckMgr">
+      <UniqueIdentifier>{619408f0-29d1-46c8-9b24-d129edb910cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Things\01. Block">
+      <UniqueIdentifier>{44df2035-cdc5-42d8-a66b-3febe175fed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\Block_Coordinate_List">
+      <UniqueIdentifier>{ae3f6570-ac62-4544-9703-a6f2e79e14ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -128,6 +140,15 @@
     </ClCompile>
     <ClCompile Include="ExitMgr.cpp">
       <Filter>소스 파일\99. Manager\ExitMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Human\02. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckKeyMgr.cpp">
+      <Filter>소스 파일\99. Manager\KeyCheckMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>소스 파일\01. Object\02. Things\01. Block</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -185,6 +206,15 @@
     <ClInclude Include="ExitMgr.h">
       <Filter>소스 파일\99. Manager\ExitMgr</Filter>
     </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Human\02. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckKeyMgr.h">
+      <Filter>소스 파일\99. Manager\KeyCheckMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>소스 파일\01. Object\02. Things\01. Block</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
@@ -192,6 +222,9 @@
     </Text>
     <Text Include="NPC_Name.txt">
       <Filter>Text\NPC_Name</Filter>
+    </Text>
+    <Text Include="BlockList.txt">
+      <Filter>Text\Block_Coordinate_List</Filter>
     </Text>
   </ItemGroup>
 </Project>
