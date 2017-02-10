@@ -22,6 +22,22 @@ typedef struct __BLOCK
 	int iY_List[Block_Count];
 
 	bool bIsCollided;
+	bool bIsMoving;
 
 	__BLOCK() {};
 }BLOCK;
+
+typedef struct __InfoList
+{
+	BLOCK pInfo_List;
+}BLOCK_LIST;
+
+typedef struct __Info
+{
+	int iPlayTime;
+	int iScore;
+
+	int iClearNum;
+
+	__Info() {};
+}INFO;

@@ -19,3 +19,4 @@ extern bool EXIT;
 
 //Maxium Block Count
 #define Block_Count 4
+#define Block_Max 10

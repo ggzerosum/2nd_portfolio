@@ -1,6 +1,6 @@
 #include "CheckKeyMgr.h"
 
-
+CCheckKeyMgr* CCheckKeyMgr::m_pInst = NULL;
 
 CCheckKeyMgr::CCheckKeyMgr()
 {

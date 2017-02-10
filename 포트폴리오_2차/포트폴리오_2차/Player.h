@@ -4,6 +4,9 @@
 
 class CPlayer : public CCreature
 {
+private :
+	INFO m_PlayerInfo;
+
 public:
 	virtual void Initialize();
 	virtual void Progress();
