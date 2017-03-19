@@ -130,6 +130,7 @@
     <ClCompile Include="SceneMgr.cpp" />
     <ClCompile Include="SceneObj.cpp" />
     <ClCompile Include="Score.cpp" />
+    <ClCompile Include="Test_MainGame.cpp" />
     <ClCompile Include="Things.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +154,7 @@
     <ClInclude Include="SceneObj.h" />
     <ClInclude Include="Score.h" />
     <ClInclude Include="Struct.h" />
+    <ClInclude Include="Test_MainGame.h" />
     <ClInclude Include="Things.h" />
   </ItemGroup>
   <ItemGroup>

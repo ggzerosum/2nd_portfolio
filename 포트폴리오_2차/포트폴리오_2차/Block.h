@@ -18,6 +18,10 @@ public :
 
 public :
 	void Input_BlockList();
+	BLOCK Get_MovableBlock()
+	{
+		return m_MovableBlock;
+	}
 
 public:
 	CBlock();

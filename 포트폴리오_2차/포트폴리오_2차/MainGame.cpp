@@ -23,14 +23,14 @@ void CMainGame::Initialize()
 
 void CMainGame::Progress()
 {
-	CSceneMgr::GetInst()->Progress();
-	
 	//버퍼 전환과 버퍼 화면 공백으로 채우기
 	CDoubleBufferMgr::GetInst()->FlippingBuffer();
 	CDoubleBufferMgr::GetInst()->ClearingBuffer();
 	
 	//눌려진 키 체크 (0x8000 으로 정확히 눌려진 시점에 체크함)
 	CCheckKeyMgr::GetInst()->KeyCheck();
+
+	CSceneMgr::GetInst()->Progress();
 }
 
 void CMainGame::Render()

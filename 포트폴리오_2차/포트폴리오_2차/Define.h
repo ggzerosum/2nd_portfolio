@@ -3,8 +3,8 @@
 extern bool EXIT;
 
 //WINDOW CONSOLE SIZE
-#define WINC_X 200
-#define WINC_Y 50
+#define WINC_X 400
+#define WINC_Y 100
 
 //KEY_DEFINE
 #define KEY_UP 0x1
@@ -20,3 +20,4 @@ extern bool EXIT;
 //Maxium Block Count
 #define Block_Count 4
 #define Block_Max 10
+#define total_block_information 3

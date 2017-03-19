@@ -6,7 +6,9 @@
 /////
 
 ////Start_Test
+#include "Test_MainGame.h"
 #include "MyLogo.h"
+#include "Block.h"
 #include "DoubleBufferMgr.h"
 ///End_Test
 
@@ -32,9 +34,21 @@ int main()
 			MainGame.Progress();
 			MainGame.Render();
 		}
-
-		//Sleep(100);
 	}
+
+	/*CTest_MainGame obj;
+	obj.Initialize();
+
+	while (EXIT)
+	{
+		obj.Progress();
+		obj.Render();
+
+		Sleep(1000);
+	}*/
+
+
+
 	//CDoubleBufferMgr::GetInst()->CreateBuffer(WINC_X, WINC_Y);
 	//
 	//int i = 0;

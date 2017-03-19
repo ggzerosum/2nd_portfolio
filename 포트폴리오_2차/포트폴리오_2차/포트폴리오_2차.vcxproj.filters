@@ -94,6 +94,9 @@
     <Filter Include="Text\Block_Coordinate_List">
       <UniqueIdentifier>{ae3f6570-ac62-4544-9703-a6f2e79e14ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\100. Test_Main">
+      <UniqueIdentifier>{70ae7d88-7d2d-43c8-8f9a-67ebed9e7378}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -149,6 +152,9 @@
     </ClCompile>
     <ClCompile Include="Block.cpp">
       <Filter>소스 파일\01. Object\02. Things\01. Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_MainGame.cpp">
+      <Filter>소스 파일\100. Test_Main</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -214,6 +220,9 @@
     </ClInclude>
     <ClInclude Include="Block.h">
       <Filter>소스 파일\01. Object\02. Things\01. Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_MainGame.h">
+      <Filter>소스 파일\100. Test_Main</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

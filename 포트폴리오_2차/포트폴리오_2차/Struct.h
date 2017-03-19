@@ -24,6 +24,8 @@ typedef struct __BLOCK
 	bool bIsCollided;
 	bool bIsMoving;
 
+	int iIsInitialized;
+
 	__BLOCK() {};
 }BLOCK;
 
